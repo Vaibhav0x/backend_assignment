@@ -17,23 +17,23 @@ Follow the steps below to set up the project locally and run it successfully.
 
 ### 1. Clone the Repository
 
-    ```bash
-    git clone 
-    cd backend_assignment
-    ```
+```bash
+git clone https://github.com/Vaibhav0x/backend_assignment.git
+cd backend_assignment
+```
 
 ### 2 To create the database and table using schema.php
 
-    ```bash
-    php sql/schema.php
-    ```
+```bash
+php sql/schema.php
+```
 
 Database and Tables are created in your sql.
 
 ### 3 TO run the api
-    ```bash
-    php -S localhost:8000 -t public
-    ```
+```bash
+php -S localhost:8000 -t public
+```
 
 ### Test the API using Postman
 
